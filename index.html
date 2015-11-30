@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Task 7</title>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/my-scroll.js"></script>
+	<script src="js/header-scroll-height.js"></script>
+	<script src="js/my-isotope.js"></script>
+</head>
+
+
+<body>
+	<!--   ____________________________________________________________HERO____________________________________________________________     -->
+	<section id="hero">
+		<ul class="slider"><!-- слайдер (ли) никогда пустым не бывает, думай хорошенько -->
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		<header>
+			<h1><a href="#"><img class="header-logo" src="images/Kramer_logo.png" alt="Kramer Studio"></a></h1> 
+			<nav id="top-menu">
+				<ul>
+					<li><a href="#about">About</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#team">Team</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<h2 class="welcome">Welcome To Kramerica Industries</h2>
+
+		<a class="cta-button" href="#">
+			<span class="fa">V</span>Explore
+		</a>
+
+	</section>
+
+	<!--   ____________________________________________________________ABOUT____________________________________________________________     -->
+
+	<!--  а где форматировка? -->
+	<section id="about">
+
+		<h2>About</h2>
+		<p class="main-p">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
+		<ul>
+			<li class="three-section">
+				<a href="#">
+					<img src="images/cogwheel.png" alt="cogwheel">
+					<h3>Services</h3>
+				</a>
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
+				</li>
+
+				<li class="three-section">
+					<a href="#">
+						<img src="images/eye.png" alt="eye">
+						<h3>Retina Display</h3></a>
+						<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
+					</li>
+
+					<li class="three-section">
+						<a href="#">
+							<img src="images/tools.png" alt="tools">
+							<h3>Full Support</h3></a>
+							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
+						</li>
+					</ul>
+
+				</section>
+
+				<!--   ____________________________________________________________PORTFOLIO_________________________________________________________     --> 
+				<section id="portfolio">
+					<h2>Portfolio</h2>
+					<nav class="portfolio-menu" id="options">
+						<!-- при первом клике что-то не так происходит, нет плавности. а так - гуд -->
+						<ul id="filters">
+							<li><button class="button is-checked" data-filter="*">All</button></li>
+							<li><button class="button" data-filter=".design">Design</button></li>
+							<li><button class="button" data-filter=".web">Web</button></li>
+							<li><button class="button" data-filter=".illustration">Illustration</button></li>
+							<li><button class="button" data-filter=".motion">Motion</button></li>
+						</ul>
+					</nav>
+					<!-- на ховер - вылазит блок за рамки нижнего блока.  -->
+					<ul class="isotope">
+						<li class="item design">
+							<img src="images/Fossil_Free.jpg" alt="Fossil Free">
+							<div class="caption"><h5>Fossil Free</h5><a href="#">View project</a></div>
+						</li>
+						<li class="item design illustration">
+							<img src="images/nice_icons.jpg" alt="Nice icons">
+							<div class="caption"><h5>Nice icons</h5><a href="#">View project</a></div>
+						</li>
+						<li class="item design illustration">
+							<img src="images/south_east.jpg" alt="South East kitchen bar">
+							<div class="caption"><h5>South East</h5><a href="#">View project</a></div>
+						</li>
+						<li class="item illustration">
+							<img src="images/design_developement.jpg" alt="Nice design developement">
+							<div class="caption"><h5>Nice design</h5><a href="#">View project</a></div>
+						</li>
+						<li class="item motion">
+							<img src="images/350org.jpg" alt="350.org Australia">
+							<div class="caption"><h5>350.org</h5><a href="#">View project</a></div>
+						</li>
+						<li class="item web design">
+							<img src="images/take_action.jpg" alt="Take action today">
+							<div class="caption"><h5>Take action</h5><a href="#">View project</a></div>
+						</li>
+					</ul>
+				</section>
+
+
+				<!--   _____________________________________ TEAM _____________________________________ --> 
+				<section id="team">
+
+					<h2>Team</h2>
+
+					<ul class="team-member"> 
+						<li>
+							<img src="images/photo_Cosmo.jpg" alt="Cosmo Kramer's photo">
+							<strong>Cosmo Kramer</strong>
+							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor</p>
+							<ul class="media-links">
+								<li><a href="#twitter"><img src="images/twitter.png" alt="Cosmo Kramer's twitter"></a></li>
+								<li><a href="#insta"><img src="images/instagram.png" alt="Cosmo Kramer's instagram"></a></li>
+							</ul>
+						</li>		
+
+						<li>
+							<img src="images/photo_George.jpg" alt="George Constanza's photo">
+							<strong>George Constanza</strong>
+							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor</p>
+							<ul class="media-links">
+								<li><a href="#twitter"><img src="images/twitter.png" alt="Cosmo Kramer's twitter"></a></li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+				<!--   ____________________________________________________ CONTACT ___________________________________________________     -->
+				<section id="contact">
+					<h2>Contact</h2>
+					<span class="please-contact-us">Please contact us and we can discuss work!</span>
+					<form class="contact-us" action="#">
+						<fieldset>
+							<ul>
+								<li>
+									<input type="text" id="name" name="name" placeholder="Name">
+								</li>
+								<li>
+									<input type="email" id="email" name="email" placeholder="Email">
+								</li>
+								<li>
+									<textarea rows="3" cols="22" id="message" name="message" placeholder="Message"></textarea>
+								</li>
+							</ul>
+							<input type="submit" id="submit" name="submit" value="Submit">
+						</fieldset>
+					</form>
+					<dl class="address">
+						<dt>Address</dt>
+						<dd>129 West 81st Street <br>New York, NY 10024</dd>
+
+						<dt>Email</dt>
+						<dd><a href="mailto:giddyup@kramer.com">giddyup@kramer.com</a></dd>
+
+						<dt>Phone</dt>
+						<dd><span>+1 212-532-1256</span></dd>
+					</dl>
+
+				</section>
+
+				<footer>
+					<a class="footer-logo" href="#"><img src="images/Kramer_logo.png" alt="Kramer Logo"></a>
+					<ul class="footer-info">
+						<li>129 West 81st Street <br>New York, NY 10024</li>
+						<li><a href="mailto:giddyup@kramer.com">giddyup@kramer.com</a><br>
+							+1 212-532-1256</li>
+							<li>
+								<a href="twitter"><img src="images/twitter.png" alt="twitter"></a>
+								<a href="facebook"><img src="images/facebook.png" alt="facebook"></a>
+								<a href="instagram"><img src="images/instagram.png" alt="instagram"></a>
+							</li>
+						</ul>
+					</footer>
+
+				</body>
+				</html>
+
+				<!-- в целом - не плохо, лучше чем у многих. с ховерами у тебя проблемы. с плановстями, с красивостями. обрати на это большое внимание - и будет отлично! -->
